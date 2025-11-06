@@ -56,14 +56,17 @@ h1 {
 .randomPwd {
     background-color: #273549;
     color: #4ADF86;
-    padding: 10px 100px;
+    padding: 10px 70px;
     border-radius: 8px;
-    border: none;
+    box-sizing: border-box;
+    width: 211px;
+    height: 36px;
 }
 
 .pwd {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
 }
